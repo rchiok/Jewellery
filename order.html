@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jewellery </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+
+
+
+        <div class="header-main">
+
+            <div id="menu" class="fas fa-bars"></div>
+
+            <a href="#" class="logo">  jewel</a>
+
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="products.html">product</a>
+                <a href="services.html">services</a>
+                <a href="group.html">group</a>
+                <a href="order.html">order</a>
+            </nav>
+
+
+
+        </div>
+
+    </header>
+
+
+    <section class="order" id="order">
+
+        <h1 class="heading">order now</h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Full Name:</span>
+                    <input type="text" placeholder="Your Full Name" required>
+                </div>
+                <div class="input">
+                    <span>phone number:</span>
+                    <input type="number" placeholder="Your phone number" required>
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Email:</span>
+                    <input type="email" placeholder="Your Email Address" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address" required>
+                </div>
+                <div class="input">
+                    <span>select item:</span>
+                    <select name="item" id="item">
+                        <option value="" disabled selected> Select Product Item</option>
+                        <option value="gold-ring">Gold Ring</option>
+                        <option value="Ring">Wedding Ring</option>
+                        <option value="Necklace">Gold Necklace</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>quantity:</span>
+                    <input type="number" placeholder="Enter Quantity">
+                </div>
+                <div class="input">
+                    <span>Payment Method:</span>
+                    <select name="Payment" id="Payment">
+                        <option value="" disabled selected> Select Payment Method</option>
+                        <option value="credit-card">credit card</option>
+                        <option value="paypal">paypal</option>
+                        <option value="bank-transfer">bank transfer</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>shipping address:</span>
+                    <textarea placeholder="Your Shipping Address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>special requests:</span>
+                    <textarea placeholder="Your Special Requests" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="place your oder" class="btn">
+
+        </form>
+
+    </section>
+</body>
+
+</html>
